@@ -21,6 +21,7 @@ data/input/*
 data/output/*
 !data/input/test_items_200.csv
 !data/input/test_items_1M.csv
+!data/output/products_sold_grouped.csv
 
 # Config sensible
 *.env
