@@ -1,0 +1,26 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Entornos virtuales
+.venv/
+env/
+venv/
+
+# Archivos del sistema
+.DS_Store
+
+# Archivos de configuración local
+*.log
+*.tmp
+
+# Data local
+data/input/*
+data/output/*
+!data/input/test_items_200.csv
+!data/input/test_items_1M.csv
+
+# Config sensible
+*.env

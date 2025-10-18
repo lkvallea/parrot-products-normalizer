@@ -1,0 +1,33 @@
+# etc/config.yaml
+
+synonyms:
+  revuelto: ["revu3lto","revuel3to","revuellto","rebuelt0","rebuelt","revueltoo","revulto"]
+  omelette: ["omellete","omlette","omellet","omelet"]
+  pastor: ["pastorr"]
+  arrachera: ["arracherra", "arracheraaa"]
+  agua: ["agua simple", "agua natural", "h2o"]
+  cocacola: ["coke","coca","cola","coca-cola","coca cola"]
+
+  egg: ["eg","eeg","3gg","eggz","eggg","eggz0r"]
+  milk: ["milkk","mi1k","miilk","mylk","milc","milkz","mi k","mlik"]
+  tomato: ["tomtoe","tomaato","tomoto","tomto","tomatoe","tomat0","t0mat0","tomatoh","tom to"]
+  cheese: ["chees","cheeze","cheesee","chese","cheesie","cheeeze","ch33se","chesse"]
+  banana: ["banan","banna","bananna","bananah","b4nana","b_nana","b nana","bnana","Bannana"]   
+  apple: ["appl3","appl_e","aapl","applle","appl","appel","appple","a-pple","app pel","app pel","apppel","aple","appel"]
+  bread: ["br3ad","breaad","breead","briad","braed","bre d","breeed","bred","b r e a d","braead"]   
+  lettuce: ["lettus","letuce","lettucee","lettuc","lettc","letucee","lettucez","lettuceh","lettu ce","lettuice","l3ttuce","letuceh","lettu ce","lettuice"]
+  onion: ["onon","onionn","oni n","onnion","oni0n","onionz","onyon","un1on","union","0nion","oni n","onin","nion"]  
+  orange: ["ornge","orangee","oranj","orenje","0range","or_ng3","or n ge","oragnge","oranje","or nge","Orenge"]
+
+normalizer:
+  stopwords: ["de","del","la","el","los","las","con","sin","y","o","en","para","al","d"]
+  generic_words: ["taco","tacos","orden","combo","pieza","pz","pzas","paq","paquete","simple","natural","vaso"]
+
+
+scorer:
+  accept: 0.88
+  gray: 0.80
+  dl_max: 2
+
+clusterer:
+  max_candidates_per_block: 12
